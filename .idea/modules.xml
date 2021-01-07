@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../myson/.idea/myson.iml" filepath="$PROJECT_DIR$/../myson/.idea/myson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/t3hhh.iml" filepath="$PROJECT_DIR$/.idea/t3hhh.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .divA, .divB, .divC{
+            width: 200px;
+            height: 200px;
+            color: white;
+        }
+        .divA{
+            background-color: red;
+
+            position: absolute;
+            left: 50px;
+            top:50px;
+            z-index: 5;    /*  - giá trị z-index nào lớn hơn thì nó nằm lên trên thẻ khác
+                               - Có giá trị là số nguyên
+                               -Chỉ có tác dụng khi thuộc tính  không phải là position: static;*/
+        }
+        .divB{
+            background-color: orange;
+            position: absolute;
+            left: 100px;
+            top:100px;
+            z-index: 2;
+        }
+        .divC{
+            background-color: green;
+            position: absolute;
+            left: 150px;
+            top:150px;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="divA">
+    divA
+</div>
+<div class="divB">
+    divB
+</div>
+<div class="divC">
+    divC
+</div>
+
+</body>
+</html>

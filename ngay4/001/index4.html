@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        .header{
+            height: 200px;
+            background-color: green;
+        }
+        .footer{
+            height: 100px;
+            background-color: red;
+        }
+        .content .sidebar{
+            float: left;
+            height: 500px;
+            width: 30%;
+            background-color: orange;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content .main-content{
+            /*clear: left;*/
+            height: 500px;
+            background-color: greenyellow;
+            float: right;
+            width: 70%;
+
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="header">
+        Header phan dau cua trang wed
+    </div>
+    <div class="content clearfix">
+        <div class="sidebar">
+            phan sidebar, noi dung phu cua trang wed thuong chua menu hay quang cao =m banner
+        </div>
+        <div class="main-content">
+            <h1>Noi dung chinh cua trang</h1>
+        </div>
+
+    </div>
+    <div class="footer">
+        phan chan cua trang wed, thuong chua dia chi thong tin lien he
+    </div>
+</div>
+
+</body>
+</html>

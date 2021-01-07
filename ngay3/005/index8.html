@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #demoA{
+            border: 2px solid green;
+            padding:40px;
+        }
+        #demoA::before{
+            content:"Noi dung them vao phia truoc ben trong the";
+            color: blue;
+            font-size: 12px;
+        }
+        #demoA::after{
+            content:"Noi dung them vao phia sau ben trong the";
+            color:red;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="demoA">
+    noi dung cua the div
+</div>
+</body>
+</html>

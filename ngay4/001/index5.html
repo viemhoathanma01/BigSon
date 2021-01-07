@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear:both;
+        }
+        .header{
+            height: 200px;
+            background-color: green;
+        }
+        .footer{
+            height: 100px;
+            background-color: red;
+        }
+        .content .sidebar-left{
+            float: left;
+            height: 500px;
+            width: 25%;
+            background-color: orange;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content .sidebar-right{
+            float: right;
+            height: 500px;
+            width: 25%;
+            background-color: blue;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .content .main-content{
+            /*clear: left;*/
+            height: 500px;
+            background-color: greenyellow;
+            float: left;
+            width: 50%;
+
+            box-sizing: border-box;
+        }
+        .main-nav{
+            background-color: green;
+        }
+        .main-nav li{
+            float: left;
+            list-style: none;
+        }
+        .main-nav li a{
+            display: block;
+            padding: 20px 30px;
+            color: orange;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="header">
+        Header phan dau cua trang wed
+    </div>
+    <div class="nav">
+        <ul class="main-nav clearfix">
+            <li><a href="">Trang Chu</a> </li>
+            <li><a href="">San Pham</a> </li>
+            <li><a href="">Lien He </a> </li>
+            <li><a href="">Tin Tuc </a> </li>
+            <li><a href="">Dich Vu </a> </li>
+
+
+        </ul>
+    </div>
+
+    <div class="content clearfix">
+        <div class="sidebar sidebar-left">
+            phan sidebar, noi dung phu cua trang wed thuong chua menu hay quang cao banner
+        </div>
+        <div class="main-content">
+            <h1>Noi dung chinh cua trang</h1>
+        </div>
+        <div class="sidebar sidebar-right">
+            phan sidebar, noi dung phu cua trang wed thuong chua menu hay quang cao banner
+        </div>
+
+    </div>
+    <div class="footer">
+        phan chan cua trang wed, thuong chua dia chi thong tin lien he
+    </div>
+</div>
+
+</body>
+</html>

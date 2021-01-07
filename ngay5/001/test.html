@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .clearfix::after{
+            display: block;
+            clear: both;
+            content: "";
+        }
+
+        .wrap{
+            width: 800px;
+            margin: 0 auto;
+            /*can giua trinh duyet*/
+            font-size: 24px;
+        }
+
+        .wrap nav ul{
+            padding: 0;
+            margin: 0;
+
+            list-style: none;
+            background-color: orange/* bo di cac dau cham tron*/
+        }
+        .wrap li{
+            position: relative;
+        }
+        .wrap ul li{
+            float:left;
+        }
+        .wrap ul li a{
+            display: inline-block;
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .wrap ul li a:hover{
+             background-color: green;
+        }
+        .wrap .submenu{
+            padding: 20px;
+            background-color: blue;
+            display: none;
+        }
+        .wrap .submenu li{
+            float: none;
+        }
+        /* chọn all thẻ li cấp 1 nằm trực tiếp trong thẻ ul
+        nhưng thẻ ul phải nằm trực tiếp trong thẻ nav */
+        .wrap nav > ul > li:hover .submenu{
+            display: block;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+<nav >
+    <ul class="clearfix">
+        <li>
+            <a href="">Thoi Su</a>
+            <ul class="submenu">
+                <li><a href="">The Gioi 1</a></li>
+                <li><a href="">The Gioi 2</a></li>
+                <li><a href="">The Gioi 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Goc Nhin</a>
+            <ul class="submenu">
+                <li><a href="">Goc Nhin 1</a></li>
+                <li><a href="">Goc Nhin 2</a></li>
+                <li><a href="">Goc Nhin 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">The Gioi</a>
+            <ul class="submenu">
+                <li><a href="">The Gioi 1</a></li>
+                <li><a href="">The Gioi 2</a></li>
+                <li><a href="">The Gioi 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Kinh Doanh</a>
+        </li>
+        <li>
+            <a href="">Video</a>
+        </li>
+        <li>
+            <a href="">Giai Tri</a>
+        </li>
+
+    </ul>
+</nav>
+</div>
+
+</body>
+</html>
