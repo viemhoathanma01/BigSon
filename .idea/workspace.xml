@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2aade6-16c1-4a70-afe6-26d86f6bc46b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ngay 7/001/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay6/003/1212.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9898" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay6/003/tiki.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay6/003/tiki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay6/001/123123.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngay6/003/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay6/003/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bigson\BigSon\ngay6\003" />
       <recent name="D:\t3hhh\ngay4\001" />
       <recent name="D:\t3hhh\ngay 3\005" />
       <recent name="D:\t3hhh\ngay 3\004" />
       <recent name="D:\t3hhh\ngay 3\003" />
-      <recent name="D:\t3hhh\ngay 3\002" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\t3hhh\ngay1\ngay2" />
@@ -109,7 +110,10 @@
       <workItem from="1610007779427" duration="209000" />
       <workItem from="1610009477762" duration="999000" />
       <workItem from="1610010552695" duration="1058000" />
-      <workItem from="1610023277342" duration="1730000" />
+      <workItem from="1610023277342" duration="2932000" />
+      <workItem from="1610050775967" duration="138000" />
+      <workItem from="1610088539905" duration="10000" />
+      <workItem from="1610104067061" duration="1197000" />
     </task>
     <servers />
   </component>
