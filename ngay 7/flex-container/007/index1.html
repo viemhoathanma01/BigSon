@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .page-wrap{
+            width: 100%;
+        }
+        .page-wrap header{
+            padding: 30px;
+            text-align: center;
+            background-color: red;
+        }
+        .page-wrap footer{
+            padding: 30px;
+            text-align: center;
+            background-color: hotpink;
+        }
+        .content{
+            display: flex;
+        }
+        .content .sidebar1{
+            flex-basis: 30%;
+            background-color: #cccccc;
+            height: 300px;
+        }
+        .content main{
+            flex-basis: 70%;
+            background-color: green;
+            height: 300px;
+        }
+        @media screen and (max-width: 700px){
+            .content {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>Giao dien wed gom 2 cot</h1>
+<div class="page-wrap">
+    <header>Phan dau cua trang wed</header>
+    <div class="content">
+        <div class="sidebar1">
+            Sidebar
+        </div>
+        <main>
+            Noi dung chinh cua trang wed
+        </main>
+    </div>
+    <footer>
+        phan cuoi cua trang wed
+    </footer>
+
+</div>
+
+</body>
+</html>

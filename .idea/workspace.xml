@@ -2,11 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2aade6-16c1-4a70-afe6-26d86f6bc46b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ngay 7/001/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngay6/003/1212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/002/index9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/002/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/002/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/002/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/002/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/002/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/003/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/003/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/003/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/003/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/003/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/004/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/005/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/005/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/006/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/007/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ngay 7/flex-container/007/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay6/001/123123.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngay6/003/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ngay6/003/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +59,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lVeI7jqTtbrOefIRCPovoxdbpz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -113,7 +145,7 @@
       <workItem from="1610023277342" duration="2932000" />
       <workItem from="1610050775967" duration="138000" />
       <workItem from="1610088539905" duration="10000" />
-      <workItem from="1610104067061" duration="1197000" />
+      <workItem from="1610104067061" duration="9656000" />
     </task>
     <servers />
   </component>
